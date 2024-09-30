@@ -8,7 +8,7 @@ to [contact the DPO support team](https://dpogroup.com/contact-us/) should you r
 ## Installation
 
 1. Unzip the module to a temporary location on your computer.
-2. On Filezila copy the "wp-content" folder in the archive to your base WordPress folder. This will merge the folders in the DPO module with your WordPress folders. You will be prompted to overwrite the paymentsettings.php file, select overwrite.
+2. On Filezila copy the **wp-content** folder in the archive to your base WordPress folder. This will merge the folders in the DPO module with your WordPress folders. You will be prompted to overwrite the paymentsettings.php file, select overwrite.
 3. Locate the paid-memberships-pro.php file in the root directory of the Paid Memberships Pro plugin.
 4. Add the following line of code before the first require_once statement:
   ```php
@@ -26,7 +26,7 @@ require_once(PMPRO_DIR . "/classes/gateways/class.pmprogateway_dpo.php");
   ```php
 // 'payfast' => __('PayFast', 'pmpro'),
 ```
-8. Log in to the administration console of your website. Select "Memberships" from the menu, and go to "Payment Settings". Under "Payment Settings" select "Payment Gateway and SSL". Choose "DPO" from the "Payment Gateway" drop down menu. The DPO options will then be shown below. Enter your credentials and options and then click "Save Changes".
+8. Log in to the administration console of your website. Select **Memberships** from the menu, and go to **Payment Settings**. Under **Payment Settings** select **Payment Gateway and SSL**. Choose **DPO** from the **Payment Gateway** drop down menu. The DPO options will then be shown below. Enter your credentials and options and then click **Save Changes**.
 
 
 Please [click here](https://github.com/DPO-Group/DPO_Paid_Memberships_Pro) for more information concerning this
