@@ -28,10 +28,6 @@ require_once(PMPRO_DIR . "/classes/gateways/class.pmprogateway_dpo.php");
 ```
 8. Log in to the administration console of your website. Select **Memberships** from the menu, and go to **Payment Settings**. Under **Payment Settings** select **Payment Gateway and SSL**. Choose **DPO** from the **Payment Gateway** drop down menu. The DPO options will then be shown below. Enter your credentials and options and then click **Save Changes**.
 
-
-Please [click here](https://github.com/DPO-Group/DPO_Paid_Memberships_Pro) for more information concerning this
-module.
-
 ## Collaboration
 
 Please submit pull requests with any tweaks, features or fixes you would like to share.
