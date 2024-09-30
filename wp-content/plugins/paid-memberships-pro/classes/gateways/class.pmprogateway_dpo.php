@@ -429,6 +429,7 @@ class PMProGateway_dpo
             'customerEmail'     => $email,
             'redirectURL'       => PMPRO_URL . "/services/dpo_itn_handler.php",
             'backURL'           => pmpro_url("levels"),
+            'transactionSource' => 'paidmembershippro',
         );
 
         $token = $dpo->createToken($data);
